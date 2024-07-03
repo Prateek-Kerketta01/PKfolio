@@ -1,0 +1,38 @@
+{
+  "flutter": {
+    "platforms": {
+      "macos": {
+        "default": {
+          "projectId": "pkfolio-6b9c0",
+          "appId": "1:116165600653:ios:3fcf7b426d1d9695cf09c4",
+          "uploadDebugSymbols": false,
+          "fileOutput": "macos/Runner/GoogleService-Info.plist"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "pkfolio-6b9c0",
+          "configurations": {
+            "macos": "1:116165600653:ios:3fcf7b426d1d9695cf09c4",
+            "web": "1:116165600653:web:b02c16793027059acf09c4",
+            "windows": "1:116165600653:web:a623d95612f3435bcf09c4"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
